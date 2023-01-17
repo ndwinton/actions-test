@@ -23,6 +23,7 @@ jobs:
           fi
       - name: Show the results
         run: |
+          echo GITHUB_REF_NAME = /$GITHUB_REF_NAME/
           echo "VERSION is /$VERSION/"
           echo "ENV is /$ENV/"
 
